@@ -42,8 +42,19 @@ img{
 #footer{
     text-align: center;
 }
-#images{
-    width: 50%;
-    
-     
+.work-img {
+    width: 60%;
+    filter:grayscale(1);
+}
+.work-img:hover {
+    filter:grayscale(0);
+    cursor: pointer;
+}
+.work-img, .work-img:hover {
+    transition: filter .2s ease-in-out;
+}
+.work-inquiry {
+    background-color: hsla(0,0%,100%,.9);
+    color: #000;
+    border-radius: 16px;
 }
