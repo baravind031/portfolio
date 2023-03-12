@@ -61,6 +61,9 @@ img{
 #foot{
     background-color: #000;
     color: whitesmoke;
-    text-align: right;
+    
 }
- 
+#foot p{
+    text-align: right;
+    padding-right:2rem
+}
