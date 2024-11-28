@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Quicksand:wght@400;700&display=swap');
+
 body {
     background-color: #222;
-    font-family: "Quicksand",sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
+
 h1, h2 {
     font-weight: bold;
 }
+
 h1 {
     font-size: 6em;
     line-height: 90px;
 }
+
 .custom-button {
-    background-color: #f06d55;
+    background-color: #e88829;
     border: none;
     color: #fff;
     font-weight: 800;
@@ -19,31 +23,59 @@ h1 {
     font-size: 18px;
     text-decoration: none;
 }
+
 .workshop-bg-1 {
-    background-color: hsla(0,0%,100%,.9);
+    background-color: hsla(0, 9%, 53%, 0.685);
     color: #000;
     border-radius: 16px;
 }
+
 .custom-button:hover {
     color: white;
 }
+
 .workshop-bg-2 {
-    background-color: #f06d55;
+    background-color: #bb6a5c8f;
     border-radius: 16px;
     color: white;
 }
+
 .workshop-bg-2 .custom-button {
     background: #000 !important;
 }
-img{
-     
+
+img {
     width: 100%;
+    border-radius: 15px;
+    shape-image-threshold: initial;
 }
-#footer{
+
+#footer {
     text-align: center;
 }
-#images{
-    width: 50%;
-    
-     
+
+.work-img {
+    width: 60%;
+    filter: grayscale(1);
+}
+
+.work-img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.work-img, .work-img:hover {
+    transition: filter 0.2s ease-in-out;
+}
+
+.work-inquiry {
+    background-color: hsla(0, 0%, 100%, 0.9);
+    color: #000;
+    border-radius: 16px;
+}
+
+#foot {
+    color: rgba(248, 244, 244, 0.986);
+    text-align: right;
+    margin-bottom: 2rem;
 }
